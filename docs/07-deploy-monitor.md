@@ -136,7 +136,7 @@ Now you use a GitHub Actions workflow in your template-based repository that tra
 	    path: azureml:diabetes-dev-folder@latest
 	```
 1. Open `src/job.yml` and review how the Azure Machine Learning command job:
-	- Runs `train-model-parameters.py` on the `test-cluster-lg` compute.
+	- Runs `train-model-parameters.py` on the `aml-cluster` compute.
 	- Uses a `training_data` input that points to the `diabetes-dev-folder` data asset by default.
 	- Accepts a configurable `reg_rate` hyperparameter.
 1. Review the workflow at `.github/workflows/train-dev.yml` to see how it:

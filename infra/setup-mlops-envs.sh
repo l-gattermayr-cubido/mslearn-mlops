@@ -29,7 +29,7 @@ REGISTRY_NAME="mlr-ai300-shared-${suffix}"
 
 # Compute
 COMPUTE_INSTANCE="ci${suffix}"
-COMPUTE_CLUSTER="test-cluster-lg"
+COMPUTE_CLUSTER="aml-cluster"
 
 # ---------------------------------------------------------------------------
 # Register the Azure Machine Learning resource provider
